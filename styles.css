@@ -3,6 +3,7 @@ body {
 	font-family: calibri;
 	font-size: 12px;
 	color: #FFF;
+	max-width: 1400px;
 }
 
 a:link {
@@ -25,7 +26,7 @@ h1 {
 }
 
 #darkmatch {
-	max-width: 960px;
+	max-width: 100%;
 	display: inline-block;
 }
 
@@ -36,7 +37,7 @@ h1 {
 
 .banner {
 	max-height: 100px;
-	max-width: 960px;
+	max-width: 100%;
 	display: inline-block;
 	border-top: 1px solid #808080;
 	padding-bottom: 50px;
@@ -106,13 +107,13 @@ table {
 	margin-bottom: 100px;
 	display: inline-block;
 	vertical-align: top;
-	min-width: 30%;
+	max-width: 50%;
 	font-size: 15px;
 }
 
 td {
 	padding: 5px;
-}
+}s
 
 #favorites-header {
 	margin-top: 50px;
@@ -124,10 +125,21 @@ form {
 	border-left: 1px solid #808080;
 	display: inline-block;
 	vertical-align: top;
-	min-width: 30%;
+	max-width: 40%;
 	margin-left: 100px;
 	padding-left: 20px;
 	margin-top: 180px;
 }
 
+@media screen and (max-width: 970px) {
+	.banner {
+		margin-right: 50px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	#wrestling-news {
+		min-width: 30%;
+	}
+}
 
