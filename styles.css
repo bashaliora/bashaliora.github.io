@@ -7,7 +7,9 @@ body {
 
 h1 {
 	font-family: sans-serif;
-	font-size: 40px;
+	font-size: 35px;
+	color: #808080;
+	text-align: center;
 }
 
 #darkmatch {
@@ -27,12 +29,9 @@ h1 {
 	border-top: 1px solid #808080;
 }
 
-nav {
-
-}
-
 footer {
 	padding-top: 100px;
 	margin: 0 auto;
 	text-transform: uppercase;
+	text-align: center;
 }
