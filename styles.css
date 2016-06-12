@@ -1,7 +1,7 @@
 body {
 	background-color: #000;
 	font-family: tahoma;
-	font-size: 11px;
+	font-size: 12px;
 	color: #FFF;
 }
 
@@ -27,6 +27,32 @@ h1 {
 	max-width: 960px;
 	display: inline-block;
 	border-top: 1px solid #808080;
+}
+
+#love-wrestling {
+	vertical-align: top;
+	max-width: 30%;
+	margin: 2px;
+	padding: 20px;
+	display: inline-block;
+	border-right: 1px solid #808080;
+}
+
+#love-wrestling p {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#wrestling-news {
+	vertical-align: top;
+	max-width: 60%;
+	padding: 20px;
+	display: inline-block;
+}
+
+h3 {
+	font-size: 24px;
+	font-color: #808080;
 }
 
 footer {
