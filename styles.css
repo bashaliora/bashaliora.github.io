@@ -1,6 +1,6 @@
 body {
 	background-color: #000;
-	font-family: tahoma;
+	font-family: calibri;
 	font-size: 12px;
 	color: #FFF;
 }
@@ -18,9 +18,9 @@ a:hover {
 }
 
 h1 {
-	font-family: sans-serif;
-	font-size: 35px;
-	color: #808080;
+	font-family: arial black;
+	font-size: 30px;
+	color: #660000;
 	text-align: center;
 }
 
@@ -39,6 +39,22 @@ h1 {
 	max-width: 960px;
 	display: inline-block;
 	border-top: 1px solid #808080;
+	padding-bottom: 50px;
+}
+
+#home-header {
+	position: relative;
+}
+
+#home-header h1 {
+	position: absolute;
+	z-index: 1;
+	margin-top: -100px;
+	font-family: arial black;
+	font-size: 25px;
+	color: #660000;
+	text-align: center;
+	margin-left: 140px;
 }
 
 #love-wrestling {
@@ -77,4 +93,10 @@ footer {
 	margin: 0 auto;
 	text-transform: uppercase;
 	text-align: center;
+}
+
+nav {
+	font-size: 20px;
+	text-align: center;
+	padding-top: 40px;
 }
