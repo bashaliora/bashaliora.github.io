@@ -131,6 +131,10 @@ form {
 	margin-top: 180px;
 }
 
+#iknow {
+	padding-top: 100px;
+}
+
 @media screen and (max-width: 970px) {
 	.banner {
 		margin-right: 50px;
