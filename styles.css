@@ -100,3 +100,34 @@ nav {
 	text-align: center;
 	padding-top: 40px;
 }
+
+table {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 30%;
+	font-size: 15px;
+}
+
+td {
+	padding: 5px;
+}
+
+#favorites-header {
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+form {
+	border-left: 1px solid #808080;
+	display: inline-block;
+	vertical-align: top;
+	min-width: 30%;
+	margin-left: 100px;
+	padding-left: 20px;
+	margin-top: 180px;
+}
+
+
