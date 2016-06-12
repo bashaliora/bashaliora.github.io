@@ -14,3 +14,25 @@ h1 {
 	max-width: 960px;
 	display: inline-block;
 }
+
+#page-wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.banner {
+	max-height: 100px;
+	max-width: 960px;
+	display: inline-block;
+	border-top: 1px solid #808080;
+}
+
+nav {
+
+}
+
+footer {
+	padding-top: 100px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
